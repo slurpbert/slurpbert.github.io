@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	background-image: url(http://www.slurpbert.com/skeleton/topbar.png);
+	background-repeat: repeat-x;
+	background-position: top right;
+}
+#clockbar {
+	height: 50px;
+	width: 540px;
+	background: url(http://www.slurpbert.com/skeleton/timeclockbg2.png);
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#fontquote {
+	height: 64px;
+	font: 20pt Arial;
+	color: #FFFFFF; 
+	overflow: hidden;
+}
+#clock {
+	height: 64px;
+	width: 570px;
+	margin-top: -2.6em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-smoothing: antialiased;
+	overflow: hidden;
+}
+#back {
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	margin-top: 4em;
+}
+#darn {
+	text-align: center;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	a:link {color:#FFFFFF;}
+	a:visited {color: #FFFFFF;}
+	a:hover {text-decoration: none; color: #000000;
+		font-weight:bold;}
+	a:active {color: #FFFFFF;text-decoration: none}
