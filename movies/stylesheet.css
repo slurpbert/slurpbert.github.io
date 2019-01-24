@@ -1,0 +1,139 @@
+body {
+	background-color: black;
+	background-image: url(/skeleton/noise.jpg);
+	
+
+	-webkit-animation-name: reset, fade-in;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: reset, fade-in;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-iteration-count: 1;
+}
+#topbar {
+	height: 64px;
+	width: 100%;
+	background-image: url(topbar.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+#pescado {
+	height: 148px;
+	width: 264px;
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(/skeleton/pescado.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	-webkit-animation-name: reset, fade-in;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: reset, fade-in;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-iteration-count: 1;
+}
+#clockbar {
+	height: 50px;
+	width: 540px;
+	background: url(http://www.slurpbert.com/skeleton/timeclockbg2.png);
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+#fontquote {
+	font-size: 35pt;
+	font-family: HandScript;
+	color: #FFFFFF; 
+}
+#clock {
+	height: 30px;
+	width: 570px;
+	margin-top: -2.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-smoothing: antialiased;
+}
+#back {
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	margin-top: 2em;
+	z-index: 1;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+#blogpart {
+background: #015769;
+background-image: url(http://www.slurpbert.com/dropbox/noise.png); /* fallback */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png), -webkit-gradient(linear, left top, left bottom, from(#C72C2C), to(#962525)); /* Saf4+, Chrome */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png), -webkit-linear-gradient(top, #C72C2C, #962525); /* Chrome 10+, Saf5.1+ */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png),    -moz-linear-gradient(top, ##C72C2C, #962525); /* FF3.6+ */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png),     -ms-linear-gradient(top, #C72C2C, #962525); /* IE10 */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png),      -o-linear-gradient(top, #C72C2C, #962525); /* Opera 11.10+ */
+background-image: url(http://www.slurpbert.com/dropbox/noise.png),         linear-gradient(top, #C72C2C, #962525); /* W3C */
+border-radius: 3px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-o-border-radius: 3px;
+-ms-border-radius: 3px;
+box-shadow: 0px 0px 0px 1px #711C1C;
+border-style: solid;
+border-color: #E24141;
+border-width: 1px;
+margin-bottom: 2em;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+overflow: hidden;
+display: inline-block
+z-index: 2;
+}
+iframe {
+   display: block;
+   margin: 0 auto;
+   padding: 32px;
+}
+.images {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: hidden;
+	display: block;
+}
+
+
+@font-face {
+    font-family: HandScript;
+    src: url(http://www.slurpbert.com/skeleton/LepyScript.ttf);
+}
+
+img {
+	border-style: none;
+
+}
+	a:link { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:visited { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:hover { text-decoration: none; color: #67808D;
+		font-weight:bold;}
+	a:active { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+}				
+::-webkit-scrollbar { 
+    display: none; 
+}
