@@ -46,7 +46,7 @@ body {
 #clockbar {
 	height: 50px;
 	width: 540px;
-	background: url(http://www.slurpbert.com/skeleton/timeclockbg2.png);
+	background: url(/skeleton/timeclockbg2.png);
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: no-repeat;
@@ -80,13 +80,13 @@ body {
 }
 #blogpart {
 background: #015769;
-background-image: url(http://www.slurpbert.com/dropbox/noise.png); /* fallback */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png), -webkit-gradient(linear, left top, left bottom, from(#019CB0), to(#0E5197)); /* Saf4+, Chrome */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png), -webkit-linear-gradient(top, #019CB0, #0E5197); /* Chrome 10+, Saf5.1+ */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png),    -moz-linear-gradient(top, #019CB0, #0E5197); /* FF3.6+ */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png),     -ms-linear-gradient(top, #019CB0, #0E5197); /* IE10 */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png),      -o-linear-gradient(top, #019CB0, #0E5197); /* Opera 11.10+ */
-background-image: url(http://www.slurpbert.com/dropbox/noise.png),         linear-gradient(top, #019CB0, #0E5197); /* W3C */
+background-image: url(/skeleton/noise.png); /* fallback */
+background-image: url(/skeleton/noise.png), -webkit-gradient(linear, left top, left bottom, from(#019CB0), to(#0E5197)); /* Saf4+, Chrome */
+background-image: url(/skeleton/noise.png), -webkit-linear-gradient(top, #019CB0, #0E5197); /* Chrome 10+, Saf5.1+ */
+background-image: url(/skeleton/noise.png),    -moz-linear-gradient(top, #019CB0, #0E5197); /* FF3.6+ */
+background-image: url(/skeleton/noise.png),     -ms-linear-gradient(top, #019CB0, #0E5197); /* IE10 */
+background-image: url(/skeleton/noise.png),      -o-linear-gradient(top, #019CB0, #0E5197); /* Opera 11.10+ */
+background-image: url(/skeleton/noise.png),         linear-gradient(top, #019CB0, #0E5197); /* W3C */
                     border-radius: 3px;
                     -webkit-border-radius: 0px;
                     -moz-border-radius: 0px;
@@ -125,18 +125,13 @@ h1 {
 }
 .propic {
         float: left;
-	background-image: url(http://www.slurpbert.com/art/background2.png);
+	background-image: url(/art/background2.png);
 	padding: 10px;
 	width: auto;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #67808D;
-}
-
-@font-face {
-    font-family: HandScript;
-    src: url(http://www.slurpbert.com/skeleton/LepyScript.ttf);
 }
 
 img {
