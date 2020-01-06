@@ -26,7 +26,7 @@ body {
 	height: 148px;
 	width: 264px;
 	background-repeat: no-repeat;
-	background-image: url(http://www.slurpbert.com/skeleton/pescado.png);
+	background-image: url(/skeleton/pescado.png);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
@@ -34,7 +34,7 @@ body {
 #clockbar {
 	height: 50px;
 	width: 540px;
-	background: url(http://www.slurpbert.com/skeleton/timeclockbg2.png);
+	background: url(/skeleton/timeclockbg2.png);
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body {
 	width: 200px;
 	height : auto;
 	padding: 20px;
-	background-image: url(http://www.slurpbert.com/art/background2.png);
+	background-image: url(background2.png);
 	background-repeat: repeat-x, repeat-y;
 	background-size: 100% 100%;
 }
@@ -111,11 +111,6 @@ h3 {
         text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	-webkit-font-smoothing: antialiased; 
 	overflow: hidden;
-}
-
-@font-face {
-    font-family: HandScript;
-    src: url(http://www.slurpbert.com/skeleton/LepyScript.ttf);
 }
 
 img {
