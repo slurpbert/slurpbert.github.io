@@ -87,6 +87,19 @@ body {
 
 }
 
+.movie {
+	width: 150px;
+	height: 150px;
+	background: url(thumb/DASHplay.png) no-repeat;
+	display: block;
+}
+.movie:hover {
+	background: url(thumb/DASHplayh.png) no-repeat;
+}
+.movie:active {
+	background: url(thumb/DASHplayp.png) no-repeat;
+}
+
 h3 {
 	text-align: center;
 	margin-left: auto;
