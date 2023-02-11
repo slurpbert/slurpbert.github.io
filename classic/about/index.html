@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>Read all about it</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="stylesheetabout.css" />
+</head>
+
+<!-- TOP-BAR -->
+<div id="clockbar">
+</div>
+
+<div id="topbar">
+</div>
+
+
+<!-- QUOTE GENERATOR -->
+
+<div id="clock">
+<span style="font-size: 20pt; color:#FFFFFF; -webkit-font-smoothing: antialiased; font-family: Arial">
+<script language='JavaScript'>
+function random_content(){
+var mycontent=new Array()
+mycontent[1]='<div id="clockbox"></div>'
+
+var ry=Math.floor(Math.random()*mycontent.length)
+if (ry==0)
+ry=1
+document.write(mycontent[ry])
+}
+random_content()
+//-->
+</script>
+</span>
+
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+var clocktext=""+nhour+":"+nmin+ap+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+</div>
+
+
+<div id="back">
+<a href="http://www.slurpbert.com"><img src="../buttons/back.png"></a>
+</div>
+
+<!-- BLOG STUFF -->
+<div id="headfoot">
+<div id="blogpart">
+<div id="blogtext">
+<p><img src="aboutme.png" alt="just plain me" class="abtme" style="width: 50%;">
+<h1>Contact:</h1>
+email: 
+<br />
+<a href="mailto:slurpbert@gmail.com"><b>slurpbert@gmail.com</b></a>
+<br />
+<br />
+
+Hi! I'm Chris and I do 2D animation and other media related things like video editing and graphic design. 
+Sometimes I even make websites like this one. 
+<br />
+Thanks for lookin'!</p>
+<br />
+
+</div>
+</div>
+</div>
+
+<div id="pescado">
+</div>
+
+</body>
+</html>

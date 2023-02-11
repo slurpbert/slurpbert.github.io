@@ -1,0 +1,145 @@
+body {
+	background-color: black;
+	background-image: url(../skeleton/footer.png), url(../skeleton/noise.jpg);
+	background-size: 200px 35px, auto;
+	background-repeat: repeat-y, repeat;
+	background-position: right 7px top 66px, 0px 0px;
+	margin: 0 0 0 0;
+	height: 100%;
+	min-width: 800px;
+}
+#footer {
+	width: 200px;
+	height: 100%;
+	background-image: url(footer.png);
+	background-size: 200px 35px;
+	background-repeat: repeat-y;
+	background-position: 0px 66px;
+	float: right;
+	margin-right: 7px;
+	position: relative;
+	z-index: -1;
+}
+/*If you're SNOOPING AROUND on my website, the repeating text works different on the index just because I worked so hard on the roundabout way to put it in so...I'm keeping it in the index! lawl. If you want the smarter(?) way to do it, check the other pages. It's just a background image on the other pages, here it has its own dedicated div that sits out of the way of the content. But I think the way it is on this page, it could potentially knock stuff on the page out of order. I'm not really a web developer guy, I just do it as a hobby so I don't actually know the smartest/most up to date way to do stuff. */
+#topbar {
+	height: 64px;
+	width: 100%;
+	background-image: url(../skeleton/topbar23.png);
+	background-repeat: repeat-x;
+	background-size: 1920px 64px;
+	z-index: 1;
+	position: relative;
+}
+#header {
+	width: 200px;
+	height: 36px;
+	background-image: url(header.png);
+	background-size: 200px 35px;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	position: absolute;
+	top: 25px;
+	right: 7px;
+	opacity: 0.7;
+}
+#back {
+	background-image: url(../skeleton/back.png);
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: 72px;
+	left: 7px;
+}
+#backlink {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-image: url(../skeleton/backh.png);
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	opacity: 0;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+#backlink:hover {
+	opacity: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 540px;
+}
+#blogpart {
+	margin: 10px 0px 10px 0px;
+	background: url(../skeleton/noise.png), #2B4548;
+	height: auto;
+	border: 1px solid #88C9D0;
+	box-shadow: 0px 0px 0px 1px #61093C;
+	border-radius: 13px;
+}
+#blogtext {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-left: 2em; */
+	/* margin-right: 150px; */
+	padding-top: 0.2em;
+	overflow: hidden;
+	word-wrap: break-word;
+	color: #FFFFFF;
+	font: 15pt arial, Helvetica, sans-serif;
+}
+#freddy {
+	background-image: url(aboutme.png);
+	background-size: contain;
+	float: right;
+	margin-left: 10px;
+	width: 225px;
+	height: 329px;
+	float: right;
+}
+#link {
+	width: 85%;
+	height: 100%;
+	float: right;
+}
+/* This is so stupid, I just did this so it'd be 1% easier to select the text for my email. J-Just ignore it... */
+
+h1 {
+	font: bold 30pt arial, Helvetica, sans-serif;
+	background: linear-gradient(0deg, rgba(215,227,228,1) 0%, rgba(163,206,210,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.footnote {
+	font-size: 8pt; 
+	color: #a3ced2;
+	text-align: right; 
+	display: block; 
+	margin-bottom: 10px; 
+	width: 250px;
+	margin-top: -23px;
+	float: right;
+}
+
+img {
+	border-style: none;
+
+}
+	a:link { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:visited { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:hover { text-decoration: none; color: #67808D;
+		font-weight:bold;}
+	a:active { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+}
+::-webkit-scrollbar { 
+    display: none; 
+}

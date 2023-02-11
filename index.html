@@ -7,77 +7,44 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="Great cartoons for twice the price!" />
 <link rel="stylesheet" type="text/css" href="skeleton/stylesheet.css" />
-<link rel="icon" type="image/png" href="skeleton/favicon.png"> 
+<link rel="icon" type="image/ico" href="skeleton/favicon.ico"> 
 </head>
-
-<!-- TOP-BAR -->
-<div id="clockbar">
-</div>
-
+<body>
+<div id="footer"></div>
 <div id="topbar">
+<div id="header"></div>
+</div>
+
+<div id="main">
+<div id="buttonbrick">
+<a href="animation"><div id="animation" class="button"><div id="anihov"></div></div></a>
+<a href="illustration"><div id="illustration" class="button"><div id="illuhov"></div></div></a>
+<a href="about"><div id="about" class="button"><div id="abthov"></div></div></a>
+</div>
 </div>
 
 
-<!-- QUOTE GENERATOR -->
-
-<div id="clock">
-<span style="font-size: 20pt; color:#FFFFFF; -webkit-font-smoothing: antialiased; font-family: Arial">
-<script language='JavaScript'>
-function random_content(){
-var mycontent=new Array()
-mycontent[1]='<div id="clockbox"></div>'
-
-var ry=Math.floor(Math.random()*mycontent.length)
-if (ry==0)
-ry=1
-document.write(mycontent[ry])
-}
-random_content()
-//-->
-</script>
-</span>
-
-<script type="text/javascript">
-function GetClock(){
-var d=new Date();
-var nhour=d.getHours(),nmin=d.getMinutes(),ap;
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-
-var clocktext=""+nhour+":"+nmin+ap+"";
-document.getElementById('clockbox').innerHTML=clocktext;
-}
-
-GetClock();
-setInterval(GetClock,1000);
-</script>
-
-</div>
 
 
-<!-- MAIN BODY -->
+<!-- MAIN BODY 
 <div align = 'center'>
 <div id="container">
 <a href="animation"><img src="buttons/2018/animation.png" class="YEP" alt="Animation"></a>
 <a href="illustration"><img src="buttons/2018/illustration.png" class="NOPE FADE0" alt="Art"></a>
 <a href="about"><img src="buttons/2018/about.png" class="NOPE FADE1" alt="About"></a> 
+-->
 
 
-<!-- <a href="http://www.slurpbert.tumblr.com"><img src="http://www.slurpbert.com/buttons/2016/tumblr.png" class="NOPE FADE1" alt="Icebox"></a> -->
-<div id="pescado">
-</div>
+<!-- <a href="http://www.slurpbert.tumblr.com"><img src="http://www.slurpbert.com/buttons/2016/tumblr.png" class="NOPE FADE1" alt="Icebox"></a> 
 
-</div>
-</div>
+</div </div>
+-->
+
 
 <div id="eatmyshorts">
 slurpbert.com
 <br>
-2021, Chris Meyer</div>
+2023, Chris Meyer</div>
 
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">

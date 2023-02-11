@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>Put on your 3D glasses | Lepy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Great cartoons for twice the price!" />
+<link rel="stylesheet" type="text/css" href="skeleton/stylesheet.css" />
+<link rel="icon" type="image/png" href="skeleton/favicon.png"> 
+</head>
+
+<!-- TOP-BAR -->
+<div id="clockbar">
+</div>
+
+<div id="topbar">
+</div>
+
+
+<!-- QUOTE GENERATOR -->
+
+<div id="clock">
+<span style="font-size: 20pt; color:#FFFFFF; -webkit-font-smoothing: antialiased; font-family: Arial">
+<script language='JavaScript'>
+function random_content(){
+var mycontent=new Array()
+mycontent[1]='<div id="clockbox"></div>'
+
+var ry=Math.floor(Math.random()*mycontent.length)
+if (ry==0)
+ry=1
+document.write(mycontent[ry])
+}
+random_content()
+//-->
+</script>
+</span>
+
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+var clocktext=""+nhour+":"+nmin+ap+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+</div>
+
+
+<!-- MAIN BODY -->
+<div align = 'center'>
+<div id="container">
+<a href="animation"><img src="buttons/2018/animation.png" class="YEP" alt="Animation"></a>
+<a href="illustration"><img src="buttons/2018/illustration.png" class="NOPE FADE0" alt="Art"></a>
+<a href="about"><img src="buttons/2018/about.png" class="NOPE FADE1" alt="About"></a> 
+
+
+<!-- <a href="http://www.slurpbert.tumblr.com"><img src="http://www.slurpbert.com/buttons/2016/tumblr.png" class="NOPE FADE1" alt="Icebox"></a> -->
+<div id="pescado">
+</div>
+
+</div>
+</div>
+
+<div id="eatmyshorts">
+slurpbert.com
+<br>
+2021, Chris Meyer</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7352216; 
+var sc_invisible=1; 
+var sc_security="7d57f846"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/7352216/0/7d57f846/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+<!-- END OF WEBSITE -->
+</body>
+<img src="facebook.png" style="display:none">
+</html>
+
+

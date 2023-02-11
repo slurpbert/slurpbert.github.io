@@ -3,69 +3,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html>
 <head>
-<title>Read all about it</title>
+<title>About</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="stylesheetabout.css" />
+<meta name="description" content="Great cartoons for twice the price!" />
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link rel="icon" type="image/ico" href="skeleton/favicon.ico"> 
 </head>
-
-<!-- TOP-BAR -->
-<div id="clockbar">
-</div>
-
+<body>
+<div id="footer"></div>
 <div id="topbar">
+<div id="header"></div>
 </div>
+<div id="back"><a href="../index.html" id="backlink"></a></div>
 
 
-<!-- QUOTE GENERATOR -->
 
-<div id="clock">
-<span style="font-size: 20pt; color:#FFFFFF; -webkit-font-smoothing: antialiased; font-family: Arial">
-<script language='JavaScript'>
-function random_content(){
-var mycontent=new Array()
-mycontent[1]='<div id="clockbox"></div>'
-
-var ry=Math.floor(Math.random()*mycontent.length)
-if (ry==0)
-ry=1
-document.write(mycontent[ry])
-}
-random_content()
-//-->
-</script>
-</span>
-
-<script type="text/javascript">
-function GetClock(){
-var d=new Date();
-var nhour=d.getHours(),nmin=d.getMinutes(),ap;
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-
-var clocktext=""+nhour+":"+nmin+ap+"";
-document.getElementById('clockbox').innerHTML=clocktext;
-}
-
-GetClock();
-setInterval(GetClock,1000);
-</script>
-
-</div>
-
-
-<div id="back">
-<a href="http://www.slurpbert.com"><img src="../buttons/back.png"></a>
-</div>
-
-<!-- BLOG STUFF -->
-<div id="headfoot">
+<div id="container">
 <div id="blogpart">
+
+
 <div id="blogtext">
-<p><img src="aboutme.png" alt="just plain me" class="abtme" style="width: 50%;">
+<p><div id="freddy"><a href="aboutme.png" id="link"></a></div>
 <h1>Contact:</h1>
 email: 
 <br />
@@ -73,18 +31,19 @@ email:
 <br />
 <br />
 
-Hi! I'm Chris and I do 2D animation and other media related things like video editing and graphic design. 
-Sometimes I even make websites like this one. 
+Hi! I'm Chris and I do 2D animation, storyboarding, video editing, graphic design, and various oher media-related STUFF. I've been using Macromedia Flash / Adobe Animate for well over a decade for some reason. 
+Sometimes I make websites, like this one.
 <br />
-Thanks for lookin'!</p>
+<br />
+Thanks for lookin'!
+<br />
+<span class="abtme footnote">The above character is Freddy Goosepepper, created by PineappleBank.</span>
+</p>
 <br />
 
 </div>
+
+
 </div>
 </div>
 
-<div id="pescado">
-</div>
-
-</body>
-</html>

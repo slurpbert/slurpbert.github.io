@@ -1,0 +1,126 @@
+body {
+	background-color: black;
+	background-image: url(../skeleton/footer.png), url(../skeleton/noise.jpg);
+	background-size: 200px 35px, auto;
+	background-repeat: repeat-y, repeat;
+	background-position: right 7px top 66px, 0px 0px;
+	margin: 0 0 0 0;
+	height: 100%;
+	min-width: 800px;
+}
+#topbar {
+	height: 64px;
+	width: 100%;
+	background-image: url(illutopbar.png);
+	background-repeat: repeat-x;
+	background-size: 1920px 64px;
+	z-index: 1;
+	position: relative;
+}
+#header {
+	width: 200px;
+	height: 36px;
+	background-image: url(header.png);
+	background-size: 200px 35px;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	position: absolute;
+	top: 25px;
+	right: 7px;
+	opacity: 0.7;
+}
+#back {
+	background-image: url(back.png);
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: 72px;
+	left: 7px;
+}
+#backlink {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-image: url(backh.png);
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	opacity: 0;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+#backlink:hover {
+	opacity: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
+#images {
+	width: auto;
+	margin-left: 19%;
+	margin-right: 19%;
+	margin-top: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+.resize {
+	padding: 20px;
+	background-image: url(background2.png);
+	background-repeat: repeat-x, repeat-y;
+	background-size: 100% 100%;
+}
+
+.resize {
+	width: auto;
+	height : 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #67808D;
+    transition: height .2s ease-in-out;
+    -moz-transition: height .2s ease-in-out;
+    -webkit-transition: height .2s ease-in-out;
+}
+
+.resize:hover {
+	border-color: #899ea9;
+}
+
+.movie {
+	width: 150px;
+	height: 150px;
+	background: url(thumb/DASHplay.png) no-repeat;
+	display: block;
+}
+.movie:hover {
+	background: url(thumb/DASHplayh.png) no-repeat;
+}
+.movie:active {
+	background: url(thumb/DASHplayp.png) no-repeat;
+}
+
+h3 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+        font-family: 'Quicksand', sans-serif;
+        color: #a6aeb5;
+        font-weight: 100;
+        font-size: 50pt;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased; 
+	overflow: hidden;
+}
+
+img {
+	border-style: none;
+
+}
+	a:link { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:visited { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+	a:hover { text-decoration: none; color: #67808D;
+		font-weight:bold;}
+	a:active { text-decoration: none; color: #FFFFFF; font-weight: bold; }
+}	

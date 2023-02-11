@@ -1,76 +1,137 @@
 body {
 	background-color: black;
-	background-image: url(/skeleton/noise.jpg);
-
-	-webkit-animation-name: reset, fade-in;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in;
-	-webkit-animation-iteration-count: 1;
-
-	-moz-animation-name: reset, fade-in;
-	-moz-animation-duration: 1s;
-	-moz-animation-timing-function: ease-in;
-	-moz-animation-iteration-count: 1;
+	background-image: url(noise.jpg);
+	margin: 0 0 0 0;
+	width: 100vw;
+	height: 100vh;
+	min-width: 800px;
 }
+#footer {
+	width: 200px;
+	height: 100%;
+	background-image: url(footer.png);
+	background-size: 200px 35px;
+	background-repeat: repeat-y;
+	background-position: 0px 66px;
+	float: right;
+	margin-right: 7px;
+	position: relative;
+	z-index: -1;
+}
+/*If you're SNOOPING AROUND on my website, the repeating text works different on the index just because I worked so hard on the roundabout way to put it in so...I'm keeping it in the index! lawl. If you want the smarter(?) way to do it, check the other pages. It's just a background image on the other pages, here it has its own dedicated div that sits out of the way of the content. But I think the way it is on this page, it could potentially knock stuff on the page out of order. I'm not really a web developer guy, I just do it as a hobby so I don't actually know the smartest/most up to date way to do stuff. */
 #topbar {
 	height: 64px;
 	width: 100%;
-	background-image: url(/skeleton/topbarprime.jpg);
+	background-image: url(topbar23.png);
 	background-repeat: repeat-x;
+	background-size: 1920px 64px;
+	z-index: 1;
+	position: relative;
+}
+#header {
+	width: 200px;
+	height: 36px;
+	background-image: url(header.png);
+	background-size: 200px 35px;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: -1;
+	top: 25px;
+	right: 7px;
+	opacity: 0.7;
 }
-
-#pescado {
-	height: 148px;
-	width: 264px;
-	display: block;
-	background-repeat: no-repeat;
-	background-image: url(/skeleton/pescado.png);
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-
-	-webkit-animation-name: reset, fade-in;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-timing-function: ease-in;
-	-webkit-animation-iteration-count: 1;
-
-	-moz-animation-name: reset, fade-in;
-	-moz-animation-duration: 2s;
-	-moz-animation-timing-function: ease-in;
-	-moz-animation-iteration-count: 1;
-}
-#clockbar {
-	height: 50px;
+#buttonbrick {
 	width: 540px;
-	background: url(http://www.slurpbert.com/skeleton/timeclockbg2.png);
 	margin-left: auto;
 	margin-right: auto;
-	background-repeat: no-repeat;
+	margin-top: 5px;
 }
-#fontquote {
-	font-size: 35pt;
-	font-family: HandScript;
-	color: #FFFFFF; 
-}
-#clock {
-	height: 30px;
-	width: 570px;
-	margin-top: -2.5em;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-smoothing: antialiased;
-}
-#container {
+
+.button {
 	width: 540px;
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-top: auto;
-	overflow: hidden;
+	height: 64px;
+	margin: 5px 0px 5px 0px;
+}
+
+#animation {
+	background-image: url(buttons/animation.png);
+	background-size: 540px 128px;
+	background-position: 0px 128px;
+}
+#anihov {
+	width: 100%;
+	height: 100%;
+	background-image: url(buttons/animation.png);
+	background-size: 540px 128px;
+	background-position: 0px 64px;
+	opacity: 0;
+	z-index: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+
+}
+#anihov:hover {
+	background-position: 0px 64px;
+	opacity: 1;
+	z-index: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+#illustration {
+	background-image: url(buttons/illustration.png);
+	background-size: 540px 128px;
+	background-position: 0px 128px;
+}
+#illuhov {
+	width: 100%;
+	height: 100%;
+	background-image: url(buttons/illustration.png);
+	background-size: 540px 128px;
+	background-position: 0px 64px;
+	opacity: 0;
+	z-index: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+
+}
+#illuhov:hover {
+	background-position: 0px 64px;
+	opacity: 1;
+	z-index: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+#about {
+	background-image: url(buttons/about.png);
+	background-size: 540px 128px;
+	background-position: 0px 128px;
+}
+#abthov {
+	width: 100%;
+	height: 100%;
+	background-image: url(buttons/about.png);
+	background-size: 540px 128px;
+	background-position: 0px 64px;
+	opacity: 0;
+	z-index: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+
+}
+#abthov:hover {
+	background-position: 0px 64px;
+	opacity: 1;
+	z-index: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
 }
 IMG.YEP {
 	height: 64px;
@@ -172,7 +233,7 @@ IMG.FADE4 {
 }
 @font-face {
     font-family: HEADLINE;
-    src: url(/skeleton/HEAD.TTF);
+    src: url(HEAD.TTF);
 }
 
 img {
@@ -201,9 +262,6 @@ img {
 0% {
     opacity: 0;
 }
-60% {
-    opacity: 0;
-}
 100% {
     opacity: 1;
 }
@@ -222,9 +280,6 @@ img {
  
 @-moz-keyframes fade-in {
 0% {
-    opacity: 0;
-}
-60% {
     opacity: 0;
 }
 100% {
