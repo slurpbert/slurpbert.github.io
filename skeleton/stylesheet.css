@@ -18,6 +18,7 @@ body {
 	position: relative;
 	z-index: -1;
 }
+
 /*If you're SNOOPING AROUND on my website, the repeating text works different on the index just because I worked so hard on the roundabout way to put it in so...I'm keeping it in the index! lawl. If you want the smarter(?) way to do it, check the other pages. It's just a background image on the other pages, here it has its own dedicated div that sits out of the way of the content. But I think the way it is on this page, it could potentially knock stuff on the page out of order. I'm not really a web developer guy, I just do it as a hobby so I don't actually know the smartest/most up to date way to do stuff. */
 
 #topbar {
