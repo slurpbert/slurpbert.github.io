@@ -19,7 +19,7 @@ body {
 	z-index: -1;
 }
 
-/*If you're SNOOPING AROUND on my website, the repeating text works different on the index just because I worked so hard on the roundabout way to put it in so...I'm keeping it in the index! lawl. If you want the smarter(?) way to do it, check the other pages. It's just a background image on the other pages, here it has its own dedicated div that sits out of the way of the content. But I think the way it is on this page, it could potentially knock stuff on the page out of order. I'm not really a web developer guy, I just do it as a hobby so I don't actually know the smartest/most up to date way to do stuff. */
+/*If you're SNOOPING AROUND on my website (...TORNADA! I invite you to steal the skeleton of my website though), the repeating text works different on the index just because I worked so hard on the roundabout way to put it in so...I'm keeping it in the index! lawl. If you want the smarter(?) way to do it, check the other pages. It's just a background image on the other pages, here it has its own dedicated div that sits out of the way of the content. But I think the way it is on this page, it could potentially knock stuff on the page out of order. I'm not really a web developer guy, I just do it as a hobby so I don't actually know the smartest/most up to date way to do stuff. */
 
 #topbar {
 	height: 64px;
@@ -109,6 +109,10 @@ body {
     -moz-transition: opacity .1s ease-in-out;
     -webkit-transition: opacity .1s ease-in-out;
 }
+
+/* 
+The way the buttons work is there are always two instances of the image laid over each other. By default, the topmost image is un-illuminated. Then when you hover, its opacity transistions down to 0, revealing the illuminated image underneath. Also both instances of the button come from one image, it's kinda like a sprite sheet so everything has to have a background position to point to which part of the sprite sheet is being displayed. I saw that this is how NG does their stuff, so if it's good enough for Tom Flap, it's good enough for me : )
+*/ 
 
 #about {
 	background-image: url(buttons/about.png);
@@ -292,3 +296,6 @@ img {
 ::-webkit-scrollbar { 
     display: none; 
 }
+/*
+I cleaned up my site so hopefully it'll be easier to figure out. If you're using my site's skeleton for your own, just message me if you have a question or if something's weird or stupid. I'm no genius with this stuff, but I know enough to get by and I can probably help you get the result you want
+*/
