@@ -57,14 +57,14 @@ body {
 }
 
 #animation {
-	background-image: url(buttons/animation.png);
+	background-image: url(buttons/animation.webp);
 	background-size: 540px 128px;
 	background-position: 0px 128px;
 }
 #anihov {
 	width: 100%;
 	height: 100%;
-	background-image: url(buttons/animation.png);
+	background-image: url(buttons/animation.webp);
 	background-size: 540px 128px;
 	background-position: 0px 64px;
 	opacity: 0;
@@ -84,14 +84,14 @@ body {
 }
 
 #illustration {
-	background-image: url(buttons/illustration.png);
+	background-image: url(buttons/illustration.webp);
 	background-size: 540px 128px;
 	background-position: 0px 128px;
 }
 #illuhov {
 	width: 100%;
 	height: 100%;
-	background-image: url(buttons/illustration.png);
+	background-image: url(buttons/illustration.webp);
 	background-size: 540px 128px;
 	background-position: 0px 64px;
 	opacity: 0;
@@ -115,14 +115,14 @@ The way the buttons work is there are always two instances of the image laid ove
 */ 
 
 #about {
-	background-image: url(buttons/about.png);
+	background-image: url(buttons/about.webp);
 	background-size: 540px 128px;
 	background-position: 0px 128px;
 }
 #abthov {
 	width: 100%;
 	height: 100%;
-	background-image: url(buttons/about.png);
+	background-image: url(buttons/about.webp);
 	background-size: 540px 128px;
 	background-position: 0px 64px;
 	opacity: 0;
