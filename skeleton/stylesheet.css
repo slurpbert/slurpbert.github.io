@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	background-image: url(noise.jpg);
+	background-image: url(scanlines.jpg);
 	margin: 0 0 0 0;
 	width: 100vw;
 	height: 100vh;
@@ -91,7 +91,7 @@ body {
 #illuhov {
 	width: 100%;
 	height: 100%;
-	background-image: url(buttons/illustration.webp, url(buttons/illustrationt.png));
+	background-image: url(buttons/illustration.webp), url(buttons/illustrationt.png));
 	background-size: 540px 128px;
 	background-position: 0px 64px;
 	opacity: 0;
