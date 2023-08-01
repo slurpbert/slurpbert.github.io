@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	background-image: url(scanlines.jpg);
+	background-image: url(noise.jpg);
 	margin: 0 0 0 0;
 	width: 100vw;
 	height: 100vh;
@@ -34,7 +34,7 @@ body {
 #header {
 	width: 200px;
 	height: 36px;
-	background-image: url(header.png);
+	background-image: url(header.webp);
 	background-size: 200px 35px;
 	background-repeat: no-repeat;
 	background-blend-mode: overlay;
