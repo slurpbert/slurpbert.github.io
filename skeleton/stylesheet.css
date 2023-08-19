@@ -298,3 +298,10 @@ img {
 /*
 I cleaned up my site so hopefully it'll be easier to figure out. If you're using my site's skeleton for your own, just message me if you have a question or if something's weird or stupid. I'm no genius with this stuff, but I know enough to get by and I can probably help you get the result you want
 */
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 600px;
+	height: 100vh;
+  }
+}
