@@ -301,7 +301,6 @@ I cleaned up my site so hopefully it'll be easier to figure out. If you're using
 
 @media only screen and (max-width: 600px) {
   body {
-    width: 600px;
-	height: 100vh;
+    width: 800px;
   }
 }
